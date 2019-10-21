@@ -20,7 +20,8 @@ public class Client {
 		DeepProtoType p2 = (DeepProtoType)p.deepClone();
 		
 		System.out.println("p.name = " + p.name + "p.dp01.hashCode() = " + p.dp01.hashCode() );
-		System.out.println("p2.name = " + p2.name + "p.dp02.hashCode() = " + p2.dp01.hashCode() ); 
+		System.out.println("p.name = " + p2.name+ "p.dp02.hashCode() = " + p2.dp01.hashCode() );
+	
 		
 		
 	}
